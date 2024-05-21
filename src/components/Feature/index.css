@@ -85,7 +85,7 @@
         padding-bottom: 0px;
     } 
 } 
-.featureDescribeItem{
+.featureDescribeItemFe{
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -96,7 +96,7 @@
     opacity: 0px;
 
 } 
-.featureHead{
+.featureHeadFe{
     width: 384px;
     height: 72px;
     font-family: Inter;
@@ -107,7 +107,7 @@
     color: #101828;
 } 
 @media (max-width:767px){ 
-    .featureHead{
+    .featureHeadFe{
         width: 343px;
         height: 28px;
         font-family: Inter;
@@ -121,7 +121,7 @@
     } 
 
 } 
-.featuresDescriptionPara{
+.featuresDescriptionParaFe{
     width: 350px;
     height: 100px;
     font-family: Inter;
@@ -136,7 +136,7 @@
 } 
 
 @media(max-width:767px){
-    .featuresDescriptionPara{
+    .featuresDescriptionParaFe{
         font-family: Inter;
         font-size: 16px;
         font-weight: 400;
@@ -152,13 +152,13 @@
     
 } 
 
-.featuresDescriptionIcons{
+.featuresDescriptionIconsFe{
     width:48px; 
     height:48px
 } 
 
 @media (max-width:767px){
-    .featuresDescriptionIcons{
+    .featuresDescriptionIconsFe{
         width:30px; 
         height:30px
     } 

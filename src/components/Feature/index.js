@@ -8,40 +8,40 @@ const  Feature=()=><div>
     </div> 
     <div>
         <ul className="featuresDescription_"> 
-        <li className="featureDescribeItem"> 
-            <div><img src="\assets\Featured icon.png" className="featuresDescriptionIcons" alt="logo"/></div> 
-            <h3 className="featureHead">Share team inboxes</h3>
-            <p className="featuresDescriptionPara">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
+        <li className="featureDescribeIteeFE"> 
+            <div><img src="\assets\Featured icon.png" className="featuresDescriptionIconsFe" alt="logo"/></div> 
+            <h3 className="featureHeadFe">Share team inboxes</h3>
+            <p className="featuresDescriptionParaFe">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
         </li> 
 
-        <li className="featureDescribeItem"> 
-            <div><img src="\assets\Featured icon (1).png" className="featuresDescriptionIcons" alt="logo"/></div> 
-            <h3 className="featureHead">Deliver instant answers</h3>
-            <p className="featuresDescriptionPara">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
+        <li className="featureDescribeItemFe"> 
+            <div><img src="\assets\Featured icon (1).png" className="featuresDescriptionIconsFe" alt="logo"/></div> 
+            <h3 className="featureHeadFe">Deliver instant answers</h3>
+            <p className="featuresDescriptionParaFe">An all-in-one customer service platform that helps you balance everything your customers need to be happy.</p>
         </li> 
 
-        <li className="featureDescribeItem"> 
-            <div><img src="\assets\Featured icon (2).png" className="featuresDescriptionIcons" alt="logo"/></div> 
-            <h3 className="featureHead">Manage your team with reports</h3>
-            <p className="featuresDescriptionPara">Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.</p>
+        <li className="featureDescribeItemFe"> 
+            <div><img src="\assets\Featured icon (2).png" className="featuresDescriptionIconsFe" alt="logo"/></div> 
+            <h3 className="featureHeadFe">Manage your team with reports</h3>
+            <p className="featuresDescriptionParaFe">Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.</p>
         </li>  
 
-        <li className="featureDescribeItem"> 
-            <div><img src="\assets\Featured icon (3).png" className="featuresDescriptionIcons" alt="logo"/></div> 
-            <h3 className="featureHead">Connect with customers</h3>
-            <p className="featuresDescriptionPara">Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.</p>
+        <li className="featureDescribeItemFe"> 
+            <div><img src="\assets\Featured icon (3).png" className="featuresDescriptionIconsFe" alt="logo"/></div> 
+            <h3 className="featureHeadFe">Connect with customers</h3>
+            <p className="featuresDescriptionParaFe">Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.</p>
         </li> 
 
-        <li className="featureDescribeItem"> 
+        <li className="featureDescribeItemFe"> 
             <div><img src="\assets\command.png" className="featuresDescriptionIcons" alt="logo"/></div> 
-            <h3 className="featureHead">Connect the tools you already use</h3>
-            <p className="featuresDescriptionPara">Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.</p>
+            <h3 className="featureHeadFe">Connect the tools you already use</h3>
+            <p className="featuresDescriptionParaFe">Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.</p>
         </li> 
 
-        <li className="featureDescribeItem"> 
-            <div><img src="\assets\Featured icon (4).png" className="featuresDescriptionIcons" alt="logo"/></div> 
-            <h3 className="featureHead">Our people make the difference</h3>
-            <p className="featuresDescriptionPara">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
+        <li className="featureDescribeItemFe"> 
+            <div><img src="\assets\Featured icon (4).png" className="featuresDescriptionIconsFe" alt="logo"/></div> 
+            <h3 className="featureHeadFe">Our people make the difference</h3>
+            <p className="featuresDescriptionParaFe">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
         </li>
 
         </ul>
