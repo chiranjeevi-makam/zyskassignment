@@ -8,7 +8,7 @@ const  Feature=()=><div>
     </div> 
     <div>
         <ul className="featuresDescription_"> 
-        <li className="featureDescribeIteeFE"> 
+        <li className="featureDescribeItemFe"> 
             <div><img src="\assets\Featured icon.png" className="featuresDescriptionIconsFe" alt="logo"/></div> 
             <h3 className="featureHeadFe">Share team inboxes</h3>
             <p className="featuresDescriptionParaFe">Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.</p>
