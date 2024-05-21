@@ -1,0 +1,101 @@
+.freetraiLayout{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #F9FAFB;
+    background-size: cover;
+
+} 
+.freeHead{
+    width: 768px;
+    height: 44px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101828; 
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+} 
+@media(max-width:767px){
+    .freeHead{
+        width: 343px;
+        height: 38px;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: center;
+        color: #101828; 
+        margin-bottom: 0px; 
+        padding-bottom: 0px;
+        
+    }
+}  
+
+.freePara{
+    width: 768px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #475467;
+    padding-top: 0px; 
+    margin-top: 0px;
+} 
+
+@media (max-width:767px){
+    .freePara{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center; 
+        width: 343px;
+        height: 56px;
+        color: #475467; 
+        padding-top: 0px; 
+        margin-top: 0px;
+} 
+} 
+.getStart{
+    border: none; 
+    color: #ffffff; 
+    background-color: #7F56D9;
+    width:129; 
+    height:48px; 
+    margin: 2px; 
+    border-radius: 10px;
+} 
+.learnButton{
+    border: 1px solid gray; 
+    color:#344054; 
+    width:129; 
+    height:48px; 
+    margin: 2px; 
+    border-radius: 10px;
+
+}  
+@media (max-width:767px){
+    .freeButtons{
+        display: none;
+    }
+}  
+.getSmallButton{
+    border: none; 
+    color: #ffffff; 
+    background-color: #7F56D9; 
+    width:343px;
+    height:40px;  
+    border-radius: 10px;
+} 
+@media(min-width:768px){
+    .getSmallButton{
+        display: none;
+    }
+}

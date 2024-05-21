@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'; 
+import Header from './components/Header'
+import NewFutures from './components/NewFutures'; 
+import Feature from './components/Feature'; 
+import Sys from './components/Sys' 
+import Cuttingedge from  './components/Cuttingedge'
+import FrequentQuestions from './components/FrequentQuestions' 
+import StillQuestions from './components/StillQuestions'
+import LatestBlog from './components/LatestBlogs' 
+import FreeTrail  from './components/FreeTrail' 
+import Footer from './components/Footer'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="projectBackground">  
+    <Header/> 
+     <NewFutures/>
+       <Feature/> 
+       <Sys/> 
+       <Cuttingedge/> 
+       <FrequentQuestions/> 
+       <StillQuestions/> 
+       <LatestBlog/> 
+       <FreeTrail /> 
+       <Footer/>
     </div>
   );
 }

@@ -1,0 +1,97 @@
+.stillqQuestionsLayout{
+    background-color: #F9FAFB; 
+    background-size: cover; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+
+} 
+.avatarGroup{
+    width: 120px;
+    height: 56px;
+
+} 
+
+@media (max-width:767px){
+    .avatarGroup{ 
+        width: 120px;
+        height: 56px;
+        
+    } 
+    
+} 
+.stillHead{
+    width: 768px;
+    height: 30px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center; 
+    color: #101828;
+
+    
+    
+}  
+@media (max-width:767px){
+    .stillHead{
+        color: #101828;
+        width: 303px;
+        height: 30px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: center;
+
+        
+    }
+}
+.stillPara{
+    width: 768px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #475467;
+
+}
+@media (max-width:767px){
+    .stillPara{
+        color: #475467;
+        width: 303px;
+        height: 48px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        
+        
+    }
+} 
+.getButton{
+    background-color: #7F56D9; 
+    color: #ffffff; 
+    border-radius: 6px; 
+    border: none; 
+    height:48px;
+    width:134px;
+
+} 
+@media (max-width:767px){ 
+    .getButton{
+        background-color: #7F56D9; 
+        color: #ffffff; 
+        border-radius: 6px; 
+        border: none; 
+        height:48px;
+        width:134px;
+    
+    } 
+
+}

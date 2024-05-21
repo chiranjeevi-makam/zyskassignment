@@ -1,0 +1,249 @@
+.center{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+} 
+.checkOutDesign{
+    border-radius: 16px; 
+    border: 2px solid #E9D7FE; 
+    height:32px; 
+    width:355px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    color: #6941C6; 
+} 
+.newSpan{
+    border-radius: 16px; 
+    border: 1px solid #E9D7FE; 
+    color: #6941C6; 
+    font-size: 14px; 
+    padding: 3px;
+
+} 
+@media(max-width:767px){ 
+    .checkOutDesign{
+        border-radius: 16px; 
+        border: 2px solid #E9D7FE; 
+        height:32px; 
+        width:330px; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
+        color: #6941C6;  
+    }
+} 
+.newText{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+} 
+.beatutifulHeadText{
+
+font-family: Inter;
+font-size: 60px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: -0.02em;
+ 
+color: #101828;
+
+
+} 
+.poerfulTextPara{
+    
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #475467; 
+    width:768px; 
+    text-align: center;
+} 
+@media (max-width:767px){
+
+    .beatutifulHeadText{
+
+        width: 343px;
+        height: 88px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #101828;
+        
+        
+        }
+} 
+@media (max-width:767px){
+    .poerfulTextPara{
+        width: 343px;
+        height: 112px;
+        color: #101828; 
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+
+        
+    }
+} 
+.signupButton{
+    background-color: #7F56D9; 
+    color:#ffffff; 
+    border-radius:5px; 
+    border: none; 
+    width:122px;
+    height:30px; 
+    margin: 3px;
+
+} 
+.demoButton{
+    width:122px;
+    height:30px; 
+     
+    text-align: center;
+    border: 1px solid #D0D5DD;
+    border-radius:5px;  
+    
+} 
+.videoIcon{
+    width:12px;
+} 
+
+@media (max-width:767px){
+    .mdButtons{
+        display: none;
+    }
+}  
+@media (min-width:768px){
+    .smsignupButton{
+        display: none;
+    } 
+} 
+@media (min-width:768px){
+    .smdemoButton{
+        display: none;
+    } 
+} 
+.smsignupButton{
+
+    background-color: #7F56D9; 
+    color:#ffffff; 
+    border-radius:5px; 
+    border: none; 
+    width:343px;
+    height:48px; 
+    margin: 3px;
+} 
+.smdemoButton{
+    width:343px;
+    height:48px; 
+    text-align: center;
+    border: 1px solid #D0D5DD;
+    border-radius:5px; 
+} 
+@media (max-width:767px){
+    .dashboardMd{
+        display: none;
+    }
+} 
+@media (min-width:768px){
+   .dashboardSm{
+    display:none;
+   } 
+} 
+.dashboardMd{
+    width:1216px; 
+    height:560px; 
+    margin-bottom: 20px;
+} 
+.dashboardSm{
+    width:343pxpx;
+    height:228pxpx;
+    
+
+} 
+.belowDashBoardText{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center; 
+    width: 343px;
+    height: 24px;
+    color: #475467; 
+    text-align: center;
+} 
+@media (min-width:768px){
+    .belowDashBoardText{
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center; 
+        width: 1216px;
+        height: 24px;
+        color: #475467; 
+        margin-top: 10px;
+    } 
+} 
+.diaplayPartnerCompaniesList{
+    width:1100px; 
+    height:104px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    list-style-type: none;
+} 
+.companyItemList{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+
+@media (max-width:767px){
+    .diaplayPartnerCompaniesList{
+        width:300px; 
+        height:140px; 
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+        list-style-type: none; 
+        flex-wrap: wrap;
+    } 
+} 
+.partnerCompanyLogo{
+    width:33px;
+    height:33px; 
+    margin: 1px;
+} 
+@media (min-width:768px){
+    partnerCompanyLogo{
+        width:44px;
+        height:44px; 
+        margin: 1px;
+    } 
+} 
+
+.partnerCompanyName{
+    width:85px; 
+    height:16px;
+} 
+@media (min-width:768px){
+    .partnerCompanyName{
+        width:113px; 
+        height:21px;
+    }
+}

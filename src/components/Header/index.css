@@ -1,0 +1,82 @@
+.headerLayout{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: 10px;
+}  
+
+@media (min-width:768px){
+    .headerLayout{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        margin-left: 30px;
+        margin-right: 30px;
+    } 
+}
+
+.mediumLogoNames{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+.logoAndName{
+    display: flex; 
+    flex-direction: row;
+} 
+.UnOrderListNames{
+    display: flex; 
+    flex-direction: row; 
+    list-style-type: none; 
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+} 
+.headCompanyLogo{
+    width:36px; 
+    margin: 2px;
+} 
+.headCompanyName{
+    width:100px; 
+    margin: 2px; 
+} 
+
+.headInputNames{
+    background-color: transparent; 
+    border: none; 
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+} 
+@media (max-width:768px){
+    .mediumLogoNames{
+        display: none;
+    }
+} 
+
+@media(min-width:768px){
+    .smallScreenLogoName{
+        display: none;
+    }
+} 
+.avatar{
+    display: none;
+} 
+@media (min-width:768px){
+    .avatar{
+        display: inline-block;
+    }
+} 
+@media (min-width:768px){
+    .menuBar{
+        display: none;
+    }
+}
